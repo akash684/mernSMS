@@ -22,8 +22,11 @@
     "redux": "^4.2.1",
     "styled-components": "^5.3.10"
   },
+  "homepage": "https://akash684.github.io/SMS",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "webpack": "^5.81.0"
   }
 }
